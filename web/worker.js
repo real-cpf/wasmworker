@@ -8,7 +8,6 @@ onmessage = function(e){
             importScripts([data])
             this.postMessage(`done`)
         } else {
-
             const ok = `ok ${data}`
             this.postMessage(ok)
         }
